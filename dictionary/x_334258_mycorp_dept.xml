@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="dept" max_length="40" name="x_334258_mycorp_dept" type="collection">
+        <element label="Department ID" max_length="10" name="department_id" type="integer"/>
+        <element display="true" label="Department Name" max_length="10" name="department_name" type="string"/>
+        <index name="index">
+            <element name="department_id"/>
+            <element name="department_name"/>
+        </index>
+        <index name="index2">
+            <element name="department_name"/>
+        </index>
+    </element>
+</database>

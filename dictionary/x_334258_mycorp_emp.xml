@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="emp" max_length="40" name="x_334258_mycorp_emp" type="collection">
+        <element label="Department" max_length="32" name="department" reference="x_334258_mycorp_dept" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Email Id" max_length="30" name="email_id" type="string"/>
+        <element label="Employee Id" max_length="40" name="employee_id" type="integer"/>
+        <element label="First Name" max_length="20" name="first_name" type="string"/>
+        <element label="Full Name" max_length="30" name="full_name" type="string"/>
+        <element label="ManagerId" max_length="32" name="managerid" reference="x_334258_mycorp_emp" type="reference"/>
+        <element label="Msalary" max_length="40" name="msalary" type="integer"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="A Salaray" max_length="40" name="salaray" type="integer"/>
+        <element label="Second Name" max_length="20" name="second_name" type="string"/>
+        <element label="IsMGR" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element label="Bonus" max_length="40" name="u_integer_1" type="integer"/>
+        <index name="index">
+            <element name="employee_id"/>
+        </index>
+        <index name="index2">
+            <element name="managerid"/>
+        </index>
+        <index name="index3">
+            <element name="department"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>managerid</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-22 11:01:29</sys_created_on>
+        <sys_id>b445bdd8db85b3003fe37dda8c961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>managerid</sys_name>
+        <sys_package display_value="myCorp" source="x_334258_mycorp">c345eae7db7c33003fe37dda8c961970</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myCorp">c345eae7db7c33003fe37dda8c961970</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b445bdd8db85b3003fe37dda8c961998</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 11:01:29</sys_updated_on>
+        <table>x_334258_mycorp_emp</table>
+        <ui_policy display_value="bonus for manager">20b4751cdb85b3003fe37dda8c9619b5</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>
